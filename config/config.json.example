@@ -1,0 +1,11 @@
+{
+    "appDirectory": "../himawari-app/dist/",
+    "port": "1235",
+    "peerConfig": {
+        "port": "1234",
+        "ssl": {
+            "crt": "",
+            "key": ""
+        }
+    }
+}
