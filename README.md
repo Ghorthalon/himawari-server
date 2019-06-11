@@ -21,6 +21,6 @@ and all is well again. Don't forget the all too familiar npm install.
 
 Also, you will need to download the dependencies for PeerJS-Server. Simply `cd` into it's directory, and run `npm install` there as well.
 
-Next, you need to edit your configuration. An example configuration is provided in src/data/config.json.example. Simply copy it as config.json and edit the parameters to your hearts content, then `npm start` will spread your wings and take you aflight.
+Next, you need to edit your configuration. An example configuration is provided in config/config.json.example. Simply copy it as config.json and edit the parameters to your hearts content, then `npm start` will spread your wings and take you aflight.
 
 This is still very much a work in progress. I've hacked most of this together in a single weekend. Please forgive me as I do some clean up and do some really badly needed refactoring. I just wanted to take a break for a few days and didn't want to just have this project sit there. Maybe you want to help a little? ;)
