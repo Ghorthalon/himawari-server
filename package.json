@@ -4,7 +4,8 @@
   "description": "Backend for the Himawari voice chat app",
   "main": "src/index.js",
   "scripts": {
-    "start": "node src/index.js"
+    "start": "node src/index.js",
+    "test": "mocha"
   },
   "keywords": [],
   "author": "TalonTheDragon",
