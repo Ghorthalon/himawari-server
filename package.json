@@ -14,5 +14,9 @@
     "socket.io": "^2.2.0",
     "unique-names-generator": "^2.0.2",
     "wrtc": "^0.4.1"
+  },
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "mocha": "^6.1.4"
   }
 }
