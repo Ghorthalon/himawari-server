@@ -6,7 +6,7 @@ class Room {
 	constructor(name) {
 		this.name = name;
 		this.users = [];
-		this.audioConstraints; {true;}
+		this.audioConstraints;
 	}
 
 	addUser(client) {
@@ -15,14 +15,14 @@ class Room {
 	}
 
 	removeUser(id) {
-		this.users = this.users.filter(item => item.client.userID != id);
+		this.users = this.users.filter(item => item.client.id != id);
 		this.users.forEach(user => {
 			user.client.emit('leave', id);
 		});
 	}
 
 	hasUser(id) {
-		return this.users.find(item => item.client.userID == id);
+		return this.users.find(item => item.client.id == id);
 	}
 
 	sendUserList(client) {
