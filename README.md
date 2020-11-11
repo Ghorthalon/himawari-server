@@ -2,7 +2,6 @@
 
 This is the server program that manages the rooms that are created for Himawari. If you're looking for the frontend written in JavaScript using React, look [here](https://github.com/ghorthalon/himawari-app).
 
-If you just want to use it, the main instance is happily running at [himawari.ml](https://himawari.ml/). I can't see your data. Don't worry. You're safe. If you don't trust me though, read on. :)
 
 
 ## How to build
